@@ -5,7 +5,7 @@ imToolBox is a software package developed to facilitate analysis of large four-d
 2.	Easy visualization and preprocessing of 4D-DDs. 
 3.	Strain analysis with numerous options and diagnostic tools for the best results. 
 
-If you find this software package is useful, please cite: Yuan, Renliang, Jiong Zhang, and Jian-Min Zuo. "Lattice strain mapping using circular Hough transform for electron diffraction disk detection." Ultramicroscopy 207 (2019): 112837.
+If you find this software package useful, please cite: Yuan, Renliang, Jiong Zhang, and Jian-Min Zuo. "Lattice strain mapping using circular Hough transform for electron diffraction disk detection." Ultramicroscopy 207 (2019): 112837.
 
 # Installing imToolBox
 1.	Download and install Matlab Runtime Version: R2020a (9.8) from https://www.mathworks.com/products/compiler/mcr.html
@@ -52,4 +52,4 @@ To easily visualize large 4D-DDs, we provide methods including:
 4.	Adjust display range of strain maps.
 
 #
-If you find this software package is useful, please cite: Yuan, Renliang, Jiong Zhang, and Jian-Min Zuo. "Lattice strain mapping using circular Hough transform for electron diffraction disk detection." Ultramicroscopy 207 (2019): 112837.
+If you find this software package useful, please cite: Yuan, Renliang, Jiong Zhang, and Jian-Min Zuo. "Lattice strain mapping using circular Hough transform for electron diffraction disk detection." Ultramicroscopy 207 (2019): 112837.
