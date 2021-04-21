@@ -45,8 +45,9 @@ To easily visualize large 4D-DDs, we provide methods including:
 
 ## Versatile calculation and display of strain maps:
 1.	Define reference for strain calculation by choosing one pattern or average over a range of patterns in the dataset. 
+2.	Define x direction for strain calculation. 
+3.	Plot the strain results in 2D maps or 1D profile. 
+4.	Adjust display range of strain maps.
 
-If you find this software package is useful, please cite: Renliang Yuan, Jiong Zhang, Lingfeng He, Jian-Min Zuo, Training artificial neural networks for precision orientation and strain mapping using 4D electron diffraction datasets, Ultramicroscopy (2021).
-3.	Define x direction for strain calculation. 
-4.	Plot the strain results in 2D maps or 1D profile. 
-5.	Adjust display range of strain maps.
+#
+If you find this software package is useful, please cite: Yuan, Renliang, Jiong Zhang, and Jian-Min Zuo. "Lattice strain mapping using circular Hough transform for electron diffraction disk detection." Ultramicroscopy 207 (2019): 112837.
