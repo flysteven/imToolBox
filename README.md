@@ -31,15 +31,18 @@ Choose from different strain analysis schemes:
 2.	Center 3x3: calculate two-dimensional strain components by fitting a reciprocal lattice to the center beam and 8 diffracted beams around it. 
 3.	All: calculate two-dimensional strain components by fitting a reciprocal lattice to all diffraction peaks detectable in the pattern.
 4.	Center 6: calculate two-dimensional strain components but with focus on just one direction. 
-Choose from different methods to measure diffraction peak positions:
+
+## Choose from different methods to measure diffraction peak positions:
 1.	Circular Hough transform: fit a circle to the edge of the diffraction disk to find the center position. Works best with large diffraction disks.
 2.	Template matching: find the position of the diffraction peak by doing cross-correlation with a template. Works best when all diffraction peaks have similar intensity distribution: spot patterns or kinematic disk patterns. 
 3.	Peak fitting: use Gaussian or Lorentzian peak fitting to find the peak position. Works best with spot patterns from parallel illumination.
 4.	Neural network: use trained convolutional neural networks to find the position of diffraction peaks. Requires network training for different experimental conditions.
+
 Full diagnostic capability:
 1.	Output peak detection and lattice fitting results with estimated uncertainty. 
 2.	Display all intermediate steps of detection to help pinpoint the error-causing issue. 
 3.	Process only a selected range of the dataset to save time. 
+
 Versatile calculation and display of strain maps:
 1.	Define reference for strain calculation by choosing one pattern or average over a range of patterns in the dataset. 
 
