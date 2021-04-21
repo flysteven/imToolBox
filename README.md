@@ -26,7 +26,7 @@ To easily visualize large 4D-DDs, we provide methods including:
 4.	Diffraction pattern grouping: use an unsupervised machine learning method, K-means clustering, to group diffraction patterns based on their similarity (defined by correlation). 
 
 # Strain Analysis
-Choose from different strain analysis schemes: 
+## Choose from different strain analysis schemes: 
 1.	One pair: calculate one-dimensional strain from the distance of a pair of diffraction peaks.
 2.	Center 3x3: calculate two-dimensional strain components by fitting a reciprocal lattice to the center beam and 8 diffracted beams around it. 
 3.	All: calculate two-dimensional strain components by fitting a reciprocal lattice to all diffraction peaks detectable in the pattern.
@@ -38,12 +38,12 @@ Choose from different strain analysis schemes:
 3.	Peak fitting: use Gaussian or Lorentzian peak fitting to find the peak position. Works best with spot patterns from parallel illumination.
 4.	Neural network: use trained convolutional neural networks to find the position of diffraction peaks. Requires network training for different experimental conditions.
 
-Full diagnostic capability:
+## Full diagnostic capability:
 1.	Output peak detection and lattice fitting results with estimated uncertainty. 
 2.	Display all intermediate steps of detection to help pinpoint the error-causing issue. 
 3.	Process only a selected range of the dataset to save time. 
 
-Versatile calculation and display of strain maps:
+## Versatile calculation and display of strain maps:
 1.	Define reference for strain calculation by choosing one pattern or average over a range of patterns in the dataset. 
 
 If you find this software package is useful, please cite: Renliang Yuan, Jiong Zhang, Lingfeng He, Jian-Min Zuo, Training artificial neural networks for precision orientation and strain mapping using 4D electron diffraction datasets, Ultramicroscopy (2021).
